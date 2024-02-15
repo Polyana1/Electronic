@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<!-- Метаданные -->
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Электроник</title>
+</head>
+
+<!-- Контент -->
+
+<body>
+
+    <!-- Шапка -->
+    <header class="page-header">
+        <div class="header-info">
+            <a href="index.html">
+                <img alt="Логотип «Электроник»" src="images/logo.svg" width="187" height="50">
+            </a>
+            <form class="header-info-form box">
+                <input type="text" placeholder="Поиск">
+                <button class="search" type="submit">
+                    <img src="images/search.svg" width="20">
+                </button>
+            </form>
+            <p>Онлайн: 300 000 | Всего: 907 000</p>
+            <p>
+                <a class="header-link" href="index.html#login"> Вход </a> /
+                <a class="header-link" href="index.html#registration">Регистрация</a>
+            </p>
+        </div>
+        <nav class="navigation box">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="navigation-link navigation-link-current">Личный кабинет</a>
+                </li>
+
+                <li class="navigation-item">
+                    <a class="navigation-link" href="index.html#contacts">О компании</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="catalog.html">Каталог</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="basket.html">Корзина</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Основная часть -->
+    <main class="main-container">
+        <div class="page-container">
+
+            <header class="catalog-header">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link breadcrumbs-link-hover" href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <img src="images/arrow_breadcrumbs.svg" width="20">
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link">Личный кабинет</a>
+                    </li>
+                </ul>
+            </header>
+
+            <section class="office">
+                <h2 class="office-title">Личный кабинет</h2>
+                <div class="index-columns">
+                    <div class="office-content">
+                        <img src="images/foto.jpg" width="350">
+                        <ul class="icons-enter">
+                            <li>
+                                <a href="#">
+                                    <img src="images/google.svg" width="30" height="30" alt="Google">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/facebook.svg" width="30" height="30" alt="Facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/vk.svg" width="30" height="30" alt="VK">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/telegram.svg" width="30" height="30" alt="Telegram">
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="office-form1" action="">
+                            <h3>Уведомления</h3>
+                            <div class="office-form1-item">
+                                <input type="checkbox" name="rules" required="" class="box">
+                                <p>Новое сообщение</p>
+                            </div>
+                            <div class="office-form1-item">
+                                <input type="checkbox" name="rules" required="" class="box">
+                                <p>Новый отзыв</p>
+                            </div>
+                            <h3>Профиль</h3>
+                            <div class="office-form1-item">
+                                <input type="checkbox" name="rules" required="" class="box">
+                                <p>Показывать мой профиль</p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="office-content2 box">
+                        <form class="office-form2">
+                            <div class="flex5">
+                                <p>Фамилия</p><input class="box" type="text" name="surname" pattern="[а-яА-ЯёЁ\s\-]+"
+                                    required="">
+                            </div>
+                            <div class="flex5">
+                                <p>Имя</p><input class="box" type="text" name="name" pattern="[а-яА-ЯёЁ\s\-]+" required="">
+                            </div>
+                            <div class="flex5">
+                                <p>Отчество</p><input class="box" type="text" name="patronymic" pattern="[а-яА-ЯёЁ\s\-]+">
+                            </div>
+                            <div class="flex5">
+                                <p>Логин</p><input class="box" type="text" name="login" pattern="[a-zA-Z0-9\-]+"
+                                    required="">
+                            </div>
+                            <div class="flex5">
+                                <p>Email</p><input class="box" type="email" name="email" required="">
+                            </div>
+                            <div class="flex5">
+                                <p>Адрес</p><input class="box" type="text" name="adres" required="">
+                            </div>
+                            <h2>Безопасность</h2>
+                            <hr>
+                            <div class="flex5">
+                                <p>Пароль</p><input class="box" type="password" name="password" pattern=".{6,}" required="">
+                            </div>
+                            <div class="flex5">
+                                <p>Повтор пароля</p><input class="box" type="password" name="password_repeat" required="">
+                            </div>
+                            <button class="office-button">Сохранить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="page-footer box">
+        <div class="page-footer-container">
+            <div class="page-footer-info">
+                <section class="footer-logo">
+                    <div>
+                        <a href="index.html">
+                            <img alt="Логотип «Электроник»" src="images/logo.svg" width="187" height="50">
+                        </a>
+                        <p class="icons-download">
+                            <img src="images/appstore.svg" width="30" height="30" alt="App Store">
+                            <img src="images/googleplay.svg" width="30" height="30" alt="Google Play">
+                            <img src="images/appgallery.svg" width="30" height="30" alt="App Gallery">
+                        </p>
+                    </div>
+                </section>
+                <section class="footer-menu">
+                    <h2 class="footer-menu-title">Информация</h2>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <p>
+                                <a class="footer-menu-link" href="index.html#login" class="line"> Вход </a> /
+                                <a class="footer-menu-link" href="index.html#registration"> Регистрация </a>
+                            </p>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-link" href="office.html">Личный кабинет</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-link" href="catalog.html">Каталог</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-link" href="index.html#contacts">О компании</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-link" href="basket.html">Корзина</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <p class="copyright">© Электроник 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>

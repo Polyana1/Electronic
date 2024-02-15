@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<!-- Метаданные -->
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Электроник</title>
+</head>
+
+<!-- Контент -->
+
+<body>
+
+    <!-- Шапка -->
+    <header class="page-header">
+        <div class="header-info">
+            <a href="index.html">
+                <img alt="Логотип «Электроник»" src="images/logo.svg" width="187" height="50">
+            </a>
+            <form class="header-info-form box">
+                <input type="text" placeholder="Поиск">
+                <button class="search" type="submit">
+                    <img src="images/search.svg" width="20">
+                </button>
+            </form>
+            <p>Онлайн: 300 000 | Всего: 907 000</p>
+            <p>
+                <a class="header-link" href="index.html#login"> Вход </a> /
+                <a class="header-link" href="index.html#registration">Регистрация</a>
+            </p>
+        </div>
+        <nav class="navigation box">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="navigation-link" href="office.html">Личный кабинет</a>
+                </li>
+
+                <li class="navigation-item">
+                    <a class="navigation-link" href="index.html#contacts">О компании</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="catalog.html">Каталог</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link navigation-link-current">Корзина</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <div class="page-container">
+
+            <header class="catalog-header">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link breadcrumbs-link-hover" href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <img src="images/arrow_breadcrumbs.svg" width="20">
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link">Корзина</a>
+                    </li>
+                </ul>
+            </header>
+
+            <section class="basket">
+                <div class="basket-flex">
+                    <h2>Корзина</h2>
+                    <p class="basket-number">3 товара</p>
+                </div>
+                <div class="index-columns">
+                    <div>
+                        <div class="basket-flex">
+                            <input type="checkbox" name="rules" required="" class="box">
+                            <p>Выбрать все</p>
+                        </div>
+                        <hr>
+                        <ul>
+                            <li>
+                            <li class="basket-card">
+                                <input type="checkbox" name="rules" required="" class="box">
+                                <a class="basket-card-link" href="card1.html">
+                                    <img src="images/catalog/tovar1.jpg" width="177" height="157">
+                                </a>
+                                <div class="basket-card-content">
+                                    <h3 class="basket-card-title">Смартфон Xiaomi Poco X5 Pro, голубой</h3>
+                                    <p class="basket-card-price">30 990 ₽</p>
+                                    <button class="basket-card-button">Удалить</button>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="basket-card">
+                                <input type="checkbox" name="rules" required="" class="box" checked>
+                                <a class="basket-card-link" href="card2.html">
+                                    <img src="images/catalog/tovar2.jpg" width="177" height="157">
+                                </a>
+                                <div class="basket-card-content">
+                                    <h3 class="basket-card-title">Смарт-часы Xiaomi Redmi Watch 3 Active, черный</h3>
+                                    <p class="basket-card-price">4 290 ₽</p>
+                                    <button class="basket-card-button">Удалить</button>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="basket-card">
+                                <input type="checkbox" name="rules" required="" class="box" checked>
+                                <a class="basket-card-link" href="card3.html">
+                                    <img src="images/catalog/tovar3.jpg" width="177" height="157">
+                                </a>
+                                <div class="basket-card-content">
+                                    <h3 class="basket-card-title">Планшет TECLAST M50, голубой</h3>
+                                    <p class="basket-card-price">10 790 ₽</p>
+                                    <button class="basket-card-button">Удалить</button>
+                                </div>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="payment box">
+                        <h3>Доставка в пункт выдачи</h3>
+                        <p>г.Каменск-Уральский, Октябрьская ул. 43а</p>
+                        <h3>Выбрать способ оплаты</h3>
+                        <img src="images/payment.jpg" width="250">
+                        <div class="payment-price">
+                            <p>Товары, 2 шт</p>
+                            <p>15 080 ₽</p>
+                        </div>
+                        <div class="payment-price">
+                            <h3>Итого</h3>
+                            <h3>15 080 ₽</h3>
+                        </div>
+                        <button class="payment-button">Купить</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="page-footer box">
+        <div class="page-footer-container">
+            <div class="page-footer-info">
+                <section class="footer-logo">
+                    <div>
+                        <a href="index.html">
+                            <img alt="Логотип «Электроник»" src="images/logo.svg" width="187" height="50">
+                        </a>
+                        <p class="icons-download">
+                            <img src="images/appstore.svg" width="30" height="30" alt="App Store">
+                            <img src="images/googleplay.svg" width="30" height="30" alt="Google Play">
+                            <img src="images/appgallery.svg" width="30" height="30" alt="App Gallery">
+                        </p>
+                    </div>
+                </section>
+                <section class="footer-menu">
+                    <h2 class="footer-menu-title">Информация</h2>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <p>
+                                <a class="footer-menu-link" href="index.html#login" class="line"> Вход </a> /
+                                <a class="footer-menu-link" href="index.html#registration"> Регистрация </a>
+                            </p>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-link" href="office.html">Личный кабинет</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-link" href="catalog.html">Каталог</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-link" href="index.html#contacts">О компании</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-link" href="basket.html">Корзина</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <p class="copyright">© Электроник 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
